@@ -1,0 +1,117 @@
+body{
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgba(2, 2, 49, 0.603); 
+    color: cornsilk; 
+}
+
+.main .block-container{
+    padding: 2rem 1rem;
+}
+
+.stSidebar{
+    background-color: rgb(2, 2, 49); 
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid cornsilk; 
+}
+
+.stSidebar .stSelectbox label,
+.stSidebar .stTextInput label,
+.stSidebar .stTextArea label{
+    font-weight: 800;
+    margin-right: 10px;
+    color: cornsilk; 
+}
+
+h1{
+    text-align: left;
+    font-size: 30px;
+    margin: 0.5rem 0 1rem 0;
+    padding: 0.5rem;
+    color: cornsilk; 
+    border-bottom: 2px solid cornsilk; 
+}
+
+.format{
+color: black;
+margin: 10px 0 20px 0;    
+}
+
+.stButton button{
+    background-color: black;
+    border: 2px solid cornsilk;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    color: cornsilk;
+    padding: 10px 20px;
+
+    transition: background-color 0.3s ease;
+}
+
+.stButton button:hover{
+    background-color: rgb(56, 56, 56);
+}
+
+.stAlert{
+    border-radius: 8px;
+    margin: 1rem 0 1rem 0;
+}
+
+.stAlert.info{
+    background-color: #e0f2f7; 
+    color: #2196F3;
+    border-left: 5px solid #2196F3;
+}
+
+.stAlert.error{
+    background-color: #ffebee; 
+    color: #f44336; 
+    border-left: 5px solid #f44336;
+}
+
+.stDataFrame{
+    border: 2px solid rgba(2, 2, 37, 0.8);
+    align-items: center;
+    border-radius: 8px;
+    overflow-x: auto;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td{
+    padding: 8px 12px;
+    border: 1px solid cornsilk; 
+    text-align: left;
+    color: cornsilk; 
+}
+
+th{
+    background-color: rgb(56, 56, 56); 
+    font-weight: bold;
+}
+
+
+.ai-analysis-container {
+    background-color: rgba(2, 2, 49, 0.8); 
+    padding: 1.5rem;
+    border-radius: 10px;
+    border: 1px solid cornsilk; 
+    margin-top: 2rem;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3); 
+}
+
+.ai-analysis-container h2 {
+    color: cornsilk; 
+    margin-bottom: 1rem;
+    border-bottom: 1px solid cornsilk; 
+    padding-bottom: 0.5rem;
+}
+
+.stSpinner{
+    color: cornsilk; 
+}
